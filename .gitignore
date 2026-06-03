@@ -1,0 +1,47 @@
+# Environment Variables & Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs & Editor Configurations
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+.fleet/
+.spyderproject
+.ropeproject
+
+# ==========================================
+# EXCEPTIONS: Files that MUST be tracked
+# ==========================================
+!uv.lock
+!alembic.ini
+!.env.example
